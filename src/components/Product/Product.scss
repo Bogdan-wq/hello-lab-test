@@ -1,0 +1,27 @@
+.product {
+  padding:32px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 24px;
+  transition: box-shadow .1s;
+
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  &__category {
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    flex-grow: 1;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+}

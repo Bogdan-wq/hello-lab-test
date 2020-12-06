@@ -1,0 +1,10 @@
+.error {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  &__label {
+    color:red;
+    font-size: 30px;
+  }
+}

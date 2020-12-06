@@ -1,0 +1,39 @@
+$button-color:#4BCFA0;
+
+
+.button {
+  border-radius: 16px;
+  background-color:white;
+  color:$button-color;
+  transition: .3s all;
+  border:1px solid rgb(230,230,230);
+
+  &:hover {
+    background-color:$button-color;
+    color:white;
+    border:1px solid $button-color;
+  }
+
+  &_upper {
+    text-transform: uppercase;
+  }
+
+  &_sm {
+    padding:16px;
+  }
+
+  &_lg {
+    padding:16px 48px;
+    font-size: 20px;
+  }
+
+  &_full {
+    width:100%;
+    text-align: center;
+    padding:12px 0;
+  }
+
+  &_shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+  }
+}

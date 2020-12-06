@@ -1,0 +1,10 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Roboto Light;
+
+  &__label {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,4 @@
+export const FORM_CHECK_NAME = 'FORM_CHECK_NAME';
+export const FORM_CHECK_PHONE = 'FORM_CHECK_PHONE';
+export const FORM_NAME_INPUT = 'FORM_NAME_INPUT';
+export const FORM_PHONE_INPUT = 'FORM_PHONE_INPUT';

@@ -1,0 +1,60 @@
+.app {
+  width:85%;
+  margin: 0 auto;
+
+
+  &__products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__product {
+    width:30%;
+    margin-left: calc((100% - (30% * 3)) / 2);
+
+    &:nth-child(3n + 1) {
+      margin-left: 0;
+    }
+
+    &:not(:nth-child(-n + 3)) {
+      margin-top: 20px;
+    }
+
+
+    @media screen and (max-width: 1150px) {
+      width:48%;
+      margin-left: calc((100% - (48% * 2)));
+
+      &:nth-child(4) {
+        margin-left: calc((100% - (48% * 2)));;
+      }
+
+      &:nth-child(2n + 1) {
+        margin-left: 0;
+      }
+
+      &:not(:nth-child(-n + 2)) {
+        margin-top: 20px;
+      }
+    }
+
+    @media screen and (max-width: 740px) {
+      width:100%;
+      &:not(:nth-child(-n + 1)) {
+        margin-top: 20px;
+      }
+
+      &:nth-child(n + 1) {
+        margin-left: 0;
+      }
+    }
+  }
+
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+}

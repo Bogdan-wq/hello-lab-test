@@ -1,0 +1,3 @@
+export const MODAL_SET_OPEN = 'MODAL_SET_OPEN';
+export const MODAL_SET_PRODUCT = 'MODAL_SET_PRODUCT';
+
